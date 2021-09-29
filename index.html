@@ -38,7 +38,7 @@
               <a class="nav-link" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../gallery/gallery.html">Gallery</a>
+              <a class="nav-link" href="gallery/gallery.html">Gallery</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#about">About</a>
@@ -331,25 +331,27 @@
     </div>
 
     <!-- kontak -->
-    <div class="container-fluid pt-5 pb-5 kontak"data-aos="fade-up"data-aos-duration="3000">
-      <div class="container">
-        <h2 class="display-3 text-center" id="kontak">Hubungi Kami</h2>
-        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, porro.</p>
-        <div class="row pb-3" name="bahbot-contact-form">
-          <div class="col-md-6">
-            <input class="form-control form-control-lg mb-3" type="text" placeholder="Nama" name="nama" />
-            <input class="form-control form-control-lg mb-3" type="text" placeholder="Email" name="email" />
-            <input class="form-control form-control-lg" type="text" placeholder="No. Phone" name="phone" />
-          </div>
-          <div class="col-md-6">
-            <textarea class="form-control form-control-lg" placeholder="Komentar" rows="5" name="pesan"></textarea>
-          </div>
-        </div>
-        <div class="col-md-3 mx-auto text-center">
-          <button type="submit" class="btn btn-info btn-sm">Kirim</button>
-        </div>
-      </div>
-    </div>
+    <form name="bahbot-contact-form">
+      <div class="container-fluid pt-5 pb-5 kontak"data-aos="fade-up"data-aos-duration="3000">
+        <div class="container">
+          <h2 class="display-3 text-center" id="kontak">Hubungi Kami</h2>
+          <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, porro.</p>
+          <div class="row pb-3">
+            <div class="col-md-6">
+              <input class="form-control form-control-lg mb-3" type="text" placeholder="Nama" name="nama" />
+              <input class="form-control form-control-lg mb-3" type="text" placeholder="Email" name="email" />
+              <input class="form-control form-control-lg" type="text" placeholder="No. Phone" name="phone" /> 
+            </div>    
+            <div class="col-md-6">
+              <textarea class="form-control form-control-lg" placeholder="Komentar" rows="5" name="pesan"></textarea>
+            </div>   
+          </div>   
+          <div class="col-md-3 mx-auto text-center">
+            <button type="submit" class="btn btn-info btn-sm">Kirim</button>
+          </div>     
+        </div>    
+      </div>    
+    </form>
 
     
 
