@@ -112,6 +112,13 @@ h1 span {
   color: gray;
 }
 /* Akhir Icon Panel */
+.isi {
+  margin-top: 50px;
+}
+.isi p {
+  font-size: 18px;
+  text-align: justify;
+}
 
 /* portfolio */
 .portfolio img {
@@ -124,7 +131,7 @@ h1 span {
 .portfolio h2 {
   font-family: 'Exo';
   text-align: center;
-  margin-top: 65px;
+  margin-top: 40px;
   margin-bottom: 40px;
   font-weight: 400;
   font-size: 50px;
@@ -148,7 +155,6 @@ img {
 /* akhir portfolio */
 /* QnA */
 .qna {
-  margin-top: 50px;
   margin-bottom: 20px;
 }
 .qna h2 {
@@ -159,11 +165,15 @@ img {
 }
 /* About */
 .about {
-  margin-top: 120px;
+  margin-top: 100px;
   margin-bottom: 40px;
 }
 .about h2 {
   font-size: 40px;
+}
+.about p {
+  text-align: justify;
+  font-size: 20px;
 }
 /* tim */
 .tim img {
@@ -198,6 +208,7 @@ a.social {
 footer {
   font-weight: 300;
 }
+
 @keyframes bounce {
   from {
     transform: translateY(0px);
@@ -269,5 +280,9 @@ footer {
   .kolom p {
     font-size: 16px;
     color: gray;
+  }
+  .qna {
+    margin-top: 10px;
+    margin-bottom: 20px;
   }
 }
